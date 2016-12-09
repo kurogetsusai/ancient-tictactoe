@@ -1,0 +1,48 @@
+
+           _______  __    _  _______  ___   _______  __    _  _______
+          |   _   ||  |  | ||       ||   | |       ||  |  | ||       |
+          |  |_|  ||   |_| ||       ||   | |    ___||   |_| ||_     _|
+          |       ||       ||       ||   | |   |___ |       |  |   |
+          |       ||  _    ||      _||   | |    ___||  _    |  |   |
+          |   _   || | |   ||     |_ |   | |   |___ | | |   |  |   |
+          |__| |__||_|  |__||_______||___| |_______||_|  |__|  |___|
+  _______  ___   _______  _______  _______  _______  _______  _______  _______
+ |       ||   | |       ||       ||   _   ||       ||       ||       ||       |
+ |_     _||   | |       ||_     _||  |_|  ||       ||_     _||   _   ||    ___|
+   |   |  |   | |       |  |   |  |       ||       |  |   |  |  | |  ||   |___
+   |   |  |   | |      _|  |   |  |       ||      _|  |   |  |  |_|  ||    ___|
+   |   |  |   | |     |_   |   |  |   _   ||     |_   |   |  |       ||   |___
+   |___|  |___| |_______|  |___|  |__| |__||_______|  |___|  |_______||_______|
+
+
+NAME
+	attt.exe - a tic-tac-toe game for two players written in x86 DOS
+	assembly. Works in text mode.
+
+CONTROLS
+	Esc key quits the game.
+	After each round, press any key to continue.
+
+	Player 1 controls:
+
+		Q | W | E
+		--+---+--
+		A | S | D
+		--+---+--
+		Z | X | C
+
+	Player 2 controls (numpad):
+
+		7 | 8 | 9
+		--+---+--
+		4 | 5 | 6
+		--+---+--
+		1 | 2 | 3
+
+COMPILATION
+	Build using TASM and TLINK. You can use the make.bat file if you have
+	TASM and TLINK directly in your C:\ path.
+
+AUTHOR
+	Written by Sai Kurogetsu on 2015-01-01 with small changes on 2016-12-09.
+
